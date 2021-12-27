@@ -162,6 +162,14 @@ local base_group = lush(function()
 		GruvboxAquaSign({ fg = aqua, bg = sign_column, gui = styles.invert_signs }),
 		GruvboxOrangeSign({ fg = orange, bg = sign_column, gui = styles.invert_signs }),
 
+		GruvboxRedSignTransparent({ fg = red, bg = "None", gui = styles.invert_signs }),
+		GruvboxGreenSignTransparent({ fg = green, bg = "None", gui = styles.invert_signs }),
+		GruvboxYellowSignTransparent({ fg = yellow, bg = "None", gui = styles.invert_signs }),
+		GruvboxBlueSignTransparent({ fg = blue, bg = "None", gui = styles.invert_signs }),
+		GruvboxPurpleSignTransparent({ fg = purple, bg = "None", gui = styles.invert_signs }),
+		GruvboxAquaSignTransparent({ fg = aqua, bg = "None", gui = styles.invert_signs }),
+		GruvboxOrangeSignTransparent({ fg = orange, bg = "None", gui = styles.invert_signs }),
+
 		GruvboxRedUnderline({ gui = styles.undercurl, sp = red }),
 		GruvboxGreenUnderline({ gui = styles.undercurl, sp = green }),
 		GruvboxYellowUnderline({ gui = styles.undercurl, sp = yellow }),
